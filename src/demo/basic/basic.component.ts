@@ -7,7 +7,7 @@ import { NumericTextboxComponent } from '../../lib';
     styleUrls: ['./basic.component.scss']
 })
 export class BasicComponent {
-    @ViewChild(NumericTextboxComponent) component: NumericTextboxComponent;
+    @ViewChild(NumericTextboxComponent, { static: true }) component: NumericTextboxComponent;
     min = -1000;
     max = 1000;
     disabled = false;
