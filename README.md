@@ -1,6 +1,6 @@
-# ngx-numeric-textbox
+# ngx-numeric-textbox-upd
 
-An Angular numeric textbox component
+An updated fork of the original Angular numeric textbox component ngx-numeric-textbox (https://github.com/leovo2708/ngx-numeric-textbox) with Angular and npm dependencies bumped
 
 ## Dependencies
 
