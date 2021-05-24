@@ -25,15 +25,16 @@
     "numeric",
     "textbox",
     "ngx-numeric-textbox",
+    "ngx-numeric-textbox-upd",
     "angular numeric textbox component"
   ],
   "author": "Leo Vo <leovo2708@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leovo2708/ngx-numeric-textbox.git"
+    "url": "git+https://github.com/GStoynev/ngx-numeric-textbox.git"
   },
   "bugs": {
-    "url": "https://github.com/leovo2708/ngx-numeric-textbox/issues"
+    "url": "https://github.com/GStoynev/ngx-numeric-textbox/issues"
   },
   "main": "src/index.js",
   "module": "src/index.js",
