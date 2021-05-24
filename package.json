@@ -45,6 +45,7 @@
     "numeral": "^2.0.0"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.803.29",
     "@angular/animations": "^8.2.14",
     "@angular/cli": "^8.3.29",
     "@angular/common": "^8.2.14",
@@ -75,7 +76,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "lodash": "^4.17.4",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.0",
     "numeral": "^2.0.6",
     "protractor": "~5.1.2",
     "rimraf": "^2.6.2",
@@ -84,5 +85,8 @@
     "tslint": "~5.7.0",
     "typescript": "3.5.3",
     "zone.js": "~0.9.1"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
   }
 }
