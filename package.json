@@ -1,6 +1,6 @@
 {
   "name": "ngx-numeric-textbox-upd",
-  "version": "12.0.2",
+  "version": "13.0.2",
   "license": "MIT",
   "description": "An update to the original ngx-numeric-textbox - an Angular numeric textbox component. Updated to bum Angular as well as npm dependencies",
   "scripts": {
@@ -46,18 +46,18 @@
     "numeral": "^2.0.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.16",
-    "@angular/animations": "^12.2.16",
-    "@angular/cli": "^12.2.16",
-    "@angular/common": "^12.2.16",
-    "@angular/compiler": "^12.2.16",
-    "@angular/compiler-cli": "^12.2.16",
-    "@angular/core": "^12.2.16",
-    "@angular/forms": "^12.2.16",
-    "@angular/language-service": "^12.2.16",
-    "@angular/platform-browser": "^12.2.16",
-    "@angular/platform-browser-dynamic": "^12.2.16",
-    "@angular/router": "^12.2.16",
+    "@angular-devkit/build-angular": "~13.2.5",
+    "@angular/animations": "^13.2.4",
+    "@angular/cli": "^13.2.5",
+    "@angular/common": "^13.2.4",
+    "@angular/compiler": "^13.2.4",
+    "@angular/compiler-cli": "^13.2.4",
+    "@angular/core": "^13.2.4",
+    "@angular/forms": "^13.2.4",
+    "@angular/language-service": "^13.2.4",
+    "@angular/platform-browser": "^13.2.4",
+    "@angular/platform-browser-dynamic": "^13.2.4",
+    "@angular/router": "^13.2.4",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "^2.0.9",
     "@types/node": "^12.11.1",
@@ -83,7 +83,7 @@
     "rxjs": "^6.6.7",
     "ts-node": "~3.2.0",
     "tslint": "~6.1.0",
-    "typescript": "4.3.5",
+    "typescript": "4.5.5",
     "zone.js": "~0.11.4"
   },
   "dependencies": {
