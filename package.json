@@ -1,6 +1,6 @@
 {
   "name": "ngx-numeric-textbox-upd",
-  "version": "12.0.1",
+  "version": "12.0.2",
   "license": "MIT",
   "description": "An update to the original ngx-numeric-textbox - an Angular numeric textbox component. Updated to bum Angular as well as npm dependencies",
   "scripts": {
