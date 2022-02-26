@@ -1,27 +1,20 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {
-        "baseUrl": ".",
-        "outDir": "./dist/lib/src",
-        "target": "es5",
-        "module": "es2015",
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "experimentalDecorators": true,
-        "declaration": true,
-        "lib": [
-            "es2016",
-            "dom"
-        ]
-    },
-    "files": [
-        "tmp/index.ts"
-    ],
-    "exclude": [
-        "node_modules"
-    ],
-    "angularCompilerOptions": {
-        "skipTemplateCodegen": true,
-        "strictMetadataEmit": true
-    }
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/lib/src",
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "lib": ["es2017", "dom"]
+  },
+  "files": ["tmp/index.ts"],
+  "exclude": ["node_modules"],
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true
+  }
 }

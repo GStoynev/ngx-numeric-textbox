@@ -1,6 +1,6 @@
 {
   "name": "ngx-numeric-textbox-upd",
-  "version": "13.0.2",
+  "version": "13.0.3",
   "license": "MIT",
   "description": "An update to the original ngx-numeric-textbox - an Angular numeric textbox component. Updated to bum Angular as well as npm dependencies",
   "scripts": {
@@ -11,7 +11,7 @@
     "e2e": "ng e2e",
     "ci": "npm run lint && npm run test-coverage && npm run e2e",
     "prebuild:lib": "rimraf tmp dist/lib",
-    "build:lib": "gulp inline-templates && ng build --configuration production && copyfiles package.json README.md LICENSE dist/lib",
+    "build:lib": "gulp inline-templates && ngc -p tsconfig-lib.json && copyfiles package.json README.md LICENSE dist/lib",
     "prebuild:demo": "rimraf dist/demo",
     "build:demo": "ng build --configuration production",
     "pub:lib": "npm run build:lib && npm publish dist/lib",
